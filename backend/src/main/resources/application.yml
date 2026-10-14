@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: smart-mes
+  datasource:
+    url: jdbc:mysql://localhost:3306/smartmes?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: ${MYSQL_USER:smartmes}        # 환경변수가 없으면 ':' 뒤 기본값 사용
+    password: ${MYSQL_PASSWORD:smartmes1234}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml   # SQL XML 파일 위치
+  configuration:
+    map-underscore-to-camel-case: true          # login_id 컬럼 → loginId 필드 자동 매핑
