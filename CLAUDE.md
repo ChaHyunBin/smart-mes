@@ -17,7 +17,7 @@
 | 구분 | 선택 |
 | --- | --- |
 | 프론트엔드 | Vue 3 (Composition API, `<script setup>`), Vite, Vue Router, Pinia, Axios, Chart.js, STOMP.js |
-| 백엔드 | Java 17, Spring Boot 3, Spring Security + JWT, MyBatis, Spring WebSocket(STOMP), springdoc-openapi(Swagger), Spring Batch 또는 @Scheduled |
+| 백엔드 | Java 17, Spring Boot 4, Spring Security + JWT, MyBatis, Spring WebSocket(STOMP), springdoc-openapi(Swagger), Spring Batch 또는 @Scheduled |
 | DB | MySQL 8 (MariaDB 호환 SQL만 사용) |
 | 설비 연동 | 1단계 MQTT (Mosquitto + Spring Integration MQTT), 2단계 OPC UA (Eclipse Milo) |
 | 분석 서비스 | Python 3.11, FastAPI — 비전 판정 API, 이상 점수 API |
