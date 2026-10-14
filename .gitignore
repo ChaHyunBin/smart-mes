@@ -1,0 +1,30 @@
+# 비밀값
+.env
+*.env.local
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Java / Gradle
+backend/build/
+backend/.gradle/
+backend/out/
+
+# Node / Vue
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 업로드·로그
+uploads/
+logs/
+*.log
